@@ -11,6 +11,9 @@ import CoreHaptics
 import AVFoundation
 import Combine
 
+let soundURL = Bundle.main.url(forResource: "heat", withExtension: "wav")
+let player = try? AVAudioPlayer(contentsOf: soundURL!)
+
 class ViewController: UIViewController {
   @IBOutlet private var loadButton: UIButton!
   @IBOutlet private var playButton: UIButton!
@@ -60,7 +63,8 @@ class ViewController: UIViewController {
   @IBAction func loadDemo() {
     
     let listDemos = ["demo", "inmyblood", "heatwaves", "test"]
-    let rando = Int.random(in: 0...3)
+    var rando = Int.random(in: 0...3)
+    rando = 2
     let selectedDemo = listDemos[rando]
     print(selectedDemo)
     
@@ -71,6 +75,9 @@ class ViewController: UIViewController {
     guard let hapticData = hapticData else { return }
     
     try? engine?.playPattern(from: hapticData)
+    
+      player?.currentTime = 0.2
+      player?.play()
   }
   
   @IBAction func loadHaptic() {
