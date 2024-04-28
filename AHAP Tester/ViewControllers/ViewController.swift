@@ -58,7 +58,13 @@ class ViewController: UIViewController {
   }
   
   @IBAction func loadDemo() {
-    hapticData = try! Data(contentsOf: Bundle.main.url(forResource: "demo", withExtension: "json")!)
+    
+    let listDemos = ["demo", "inmyblood", "heatwaves", "test"]
+    let rando = Int.random(in: 0...3)
+    let selectedDemo = listDemos[rando]
+    print(selectedDemo)
+    
+    hapticData = try! Data(contentsOf: Bundle.main.url(forResource: selectedDemo, withExtension: "json")!)
   }
 
   @IBAction func playHaptic() {

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6931032BDEFE05009E1840 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F6931022BDEFE04009E1840 /* test.json */; };
+		4F6931052BDEFE18009E1840 /* inmyblood.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F6931042BDEFE18009E1840 /* inmyblood.json */; };
+		4F6931072BDEFE1E009E1840 /* heatwaves.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F6931062BDEFE1E009E1840 /* heatwaves.json */; };
+		4F69310A2BDF00CF009E1840 /* inmyblood.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F6931082BDF00CF009E1840 /* inmyblood.wav */; };
+		4F69310B2BDF00CF009E1840 /* inmyblood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F6931092BDF00CF009E1840 /* inmyblood.mp3 */; };
+		4F69310E2BDF00E2009E1840 /* heatwaves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F69310C2BDF00E2009E1840 /* heatwaves.mp3 */; };
+		4F69310F2BDF00E2009E1840 /* heatwaves.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F69310D2BDF00E2009E1840 /* heatwaves.wav */; };
 		65C6A4CA22C379DE006ACFC2 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6A4C922C379DE006ACFC2 /* ScanViewController.swift */; };
 		65C6A4CE22C37BBC006ACFC2 /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6A4CD22C37BBC006ACFC2 /* AppStoryboards.swift */; };
 		65DB981D22C3585E001CE26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB981C22C3585E001CE26D /* AppDelegate.swift */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F6931022BDEFE04009E1840 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		4F6931042BDEFE18009E1840 /* inmyblood.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = inmyblood.json; sourceTree = "<group>"; };
+		4F6931062BDEFE1E009E1840 /* heatwaves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heatwaves.json; sourceTree = "<group>"; };
+		4F6931082BDF00CF009E1840 /* inmyblood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = inmyblood.wav; sourceTree = "<group>"; };
+		4F6931092BDF00CF009E1840 /* inmyblood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inmyblood.mp3; sourceTree = "<group>"; };
+		4F69310C2BDF00E2009E1840 /* heatwaves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heatwaves.mp3; sourceTree = "<group>"; };
+		4F69310D2BDF00E2009E1840 /* heatwaves.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heatwaves.wav; sourceTree = "<group>"; };
 		65C6A4C922C379DE006ACFC2 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		65C6A4CD22C37BBC006ACFC2 /* AppStoryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
 		65DB981922C3585E001CE26D /* Moby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moby.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +70,13 @@
 			isa = PBXGroup;
 			children = (
 				65DB983022C35ADE001CE26D /* demo.json */,
+				4F6931042BDEFE18009E1840 /* inmyblood.json */,
+				4F6931092BDF00CF009E1840 /* inmyblood.mp3 */,
+				4F6931082BDF00CF009E1840 /* inmyblood.wav */,
+				4F6931062BDEFE1E009E1840 /* heatwaves.json */,
+				4F69310C2BDF00E2009E1840 /* heatwaves.mp3 */,
+				4F69310D2BDF00E2009E1840 /* heatwaves.wav */,
+				4F6931022BDEFE04009E1840 /* test.json */,
 				65DB982222C3585E001CE26D /* Main.storyboard */,
 				65DB982522C3585F001CE26D /* Assets.xcassets */,
 				65DB982722C3585F001CE26D /* LaunchScreen.storyboard */,
@@ -150,10 +171,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6931072BDEFE1E009E1840 /* heatwaves.json in Resources */,
+				4F69310F2BDF00E2009E1840 /* heatwaves.wav in Resources */,
 				65DB982922C3585F001CE26D /* LaunchScreen.storyboard in Resources */,
+				4F6931052BDEFE18009E1840 /* inmyblood.json in Resources */,
 				65DB982622C3585F001CE26D /* Assets.xcassets in Resources */,
+				4F6931032BDEFE05009E1840 /* test.json in Resources */,
+				4F69310E2BDF00E2009E1840 /* heatwaves.mp3 in Resources */,
 				65DB983122C35ADE001CE26D /* demo.json in Resources */,
+				4F69310A2BDF00CF009E1840 /* inmyblood.wav in Resources */,
 				65DB982422C3585E001CE26D /* Main.storyboard in Resources */,
+				4F69310B2BDF00CF009E1840 /* inmyblood.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,13 +341,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H72GR44F4M;
+				DEVELOPMENT_TEAM = ZL96A3AF4D;
 				INFOPLIST_FILE = "AHAP Tester/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.AHAP-Tester";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtay9562.AHAP-Tester";
 				PRODUCT_NAME = Moby;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -331,13 +359,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H72GR44F4M;
+				DEVELOPMENT_TEAM = ZL96A3AF4D;
 				INFOPLIST_FILE = "AHAP Tester/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.AHAP-Tester";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtay9562.AHAP-Tester";
 				PRODUCT_NAME = Moby;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
